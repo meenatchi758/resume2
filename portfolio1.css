@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  
+  
+  
+  }
+  
+  body {
+    color: black;
+    background:url(C:/Users/sriram.B/Downloads/contact1.jpg)repeat ;
+   
+  
+  
+  }
+  
+  /* #img {
+  
+    background: url(C:/Users/sriram.B/Downloads/mm.jpg)no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+  
+  } */
+   .logo{
+ text-align: center;
+   }
+   .logo h2{
+    
+    margin:1px;
+    
+    
+   
+   }
+   
+
+   .navbar {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 10px;
+      background-color:grey;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      transition: background-color var(--transition-speed);
+      
+      font-weight:bold;
+      font-size:20px;
+      
+    
+  
+  
+   
+  
+    /* margin-left: 800px; */
+  }
+  .navbar h2{
+    align-items: left;
+    color:Black;
+    margin-right:600px;
+  }
+  .navbar a{
+    text-align:center;
+       color:black;
+       
+       border:green;
+  }
+  
+  .navbar:hover {
+    background-color:;
+    transform: scale(0.5px);
+  }
+  
+   
+  
+  .box1{
+    
+    border-radius: 30%; 
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    border:20px solid white; 
+    margin:40px;
+    border-color:black;
+    background-color: white;
+  
+   
+    /* transition: transform 0.2s, background-color 0.5s; */
+    margin-right:350px;
+    color:black;
+   
+
+  }
+  .box1 img{
+    padding:20px;
+    width:300px;
+  }
+  .box1 h4{
+     font-size:24px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 200;
+     color:black;
+  }
+  .box1 h1{
+    color:black;
+  }
+  .box1 h3{
+    color:black;
+  }
+
+/* .box1:hover {
+    transform: translateX(20px);
+    background-color: plum;
+}
+
+@keyframes moveBox {
+    0% {
+        transform: translateX(0);
+        background-color: #6200ea;
+    }
+    50% {
+        transform: translateX(50px) scale(1.2);
+        background-color: #03dac6;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: #6200ea;
+    }
+}
+
+.box1.animate {
+    animation: moveBox 10s ease infinite;
+} */
+
+ .box1  a {
+        display:flex;
+        justify-content: center;
+        gap: 5px;
+        border: none;
+      
+      
+        align-items: center;
+        /* margin-right: 900px; */
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+      
+        margin-left: 600px;
+      }
+      
+      
+      
+     .box1  a {
+        text-decoration: none;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      gap:2px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+      
+      }
+      
+      .box1 .fa-facebook {
+        background-color: #3b5998;
+        width: 60px;
+        height: 60px;
+        border-radius: 40%;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 30px;
+      
+      }
+      
+      .box1 .fa-twitter {
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        border-radius: 40%;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 30px;
+      }
+      
+      .box1 .fa-instagram {
+        background-color: gold;
+      
+        width: 60px;
+        height: 60px;
+        border-radius: 40%;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 30px;
+      }
+      
+      
+      
+      /* .box1:hover {
+        transform: scale(1.9);
+      
+        color: aquamarine;
+      } */
+    .Skills{
+      font-size: 20px;;
+      text-align:center;
+    }
+    .Skills h1{
+      text-align: center;
+      font-size: 60px;
+
+    
+      
+    }
+    
+    
+    
+    
+    
+    .container {
+      display: flex;
+     
+      justify-content: center;
+      gap: 70px;
+      padding: 70px;
+    }
+    
+    
+    .Skills1 {
+      background-color:lavender;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      border:1px solid white;
+    
+      gap:50px;
+      transition: transform 0.5s, background-color 0.5s;
+     
+    }
+     .Skills1:hover {
+      background-color:aliceblue;
+      transform: scale(1.5);
+      
+    } 
+    
+    .Skills1 h2 {
+      font-size: 5px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    
+    .Skills1 p {
+      font-size: 1.2rem;
+      color: white;
+      margin-bottom: 15px;
+      font-weight:bold;
+    }
+    
+    .Skills1 img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .Skills1 img :hover{
+        transform: scale(1.0);
+       
+    }
+    
+    .Skills1 figcaption {
+      font-size: 1rem;
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+    
+  text-align: calc();
+  margin: 20px;
+}
+
+.home h1 {
+  font-size: 48px;
+  color: BLACK;
+}
+
+.home h3 {
+  font-size: 24px;
+  color: black;
+}
+
+.home p {
+  font-size: 18px;
+  color:white;
+
+}
+
+
+
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+
+  word-spacing: 30px;
+  align-items: center;
+  margin-right: 900px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  margin-left: 600px;
+}
+
+
+
+.icon a {
+  text-decoration: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+.icon .fa-facebook {
+  background-color: #3b5998;
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 30px;
+
+}
+
+.icon .fa-twitter {
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.icon .fa-instagram {
+  background-color: #e4405f;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+
+
+.icon:hover {
+  transform: scale(1.9);
+
+  color: aquamarine;
+}
+.follow{
+  
+}
+
+.contact1{
+  position: relative;
+   background: url(C:/Users/sriram.B/Downloads/contact1.jpg); 
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  justify-content: center;
+  padding: 70px;
+  /* border: 1px solid black;
+  border-radius: 20px; */
+}
+.contact1 h3{
+    text-align:center;
+    color:Green;
+}
+
+.contact1 h1 {
+
+  
+  color: black;
+  text-align: center;
+  font-family: 'Georgia', serif; 
+  font-size: 28px; 
+  font-weight: bold; 
+  word-spacing: 2px;
+
+}
+input[type="text"], input[type="Username"] text area{
+  width: 250px;
+  padding: 10px;
+ 
+  border-radius: 15px;  
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ font-weight: bold;
+ /* text-align:center; */
+ align-items: center;
+ margin-left:800px;
+}
+.contact1 textarea {
+  width: 400px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left:800px;
+
+}
+
+
+
+
+button {
+     
+    display: flex;
+    background-color: lightgreen;
+    color:black;
+    padding: 10px 20px;
+    border: 3px solid lightgreen;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left:820px;
+    position: absolute;
+   
+  }
+
+button:hover {
+/* background-color:yellow; */
+transform: scale(1.05);
+justify-content: center;
+
+}
+
+button:active {
+background-color: #cc8500;
+}
+
+.Add{
+    text-align: left;
+  
+
+}
+.Add fig{
+    margin:2px;
+    margin-left:600px;
+    color:green;
+   
+}
+
+.Add p{
+    margin:2px;
+    margin-left:600px;
+}
+.about{
+   
+   margin:100px;
+    text-align: center;
+    /* background:  url(C:/Users/sriram.B/Downloads/OIP.jpg) ;
+    background-size: cover;
+    border:5px solid white */
+}
+.about h1{
+    margin:30px;
+    padding:50px;
+
+}
+.about p{
+    font-size:20px;
+    font-weight:100;
+    font-weight: bold;
+    
+}
+.about strong{
+    color:navy;
+}
+.about:hover{
+    background-color:aliceblue;
+    transform: scale(1.5);
+    
+}
